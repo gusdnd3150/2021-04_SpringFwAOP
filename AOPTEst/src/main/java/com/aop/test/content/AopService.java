@@ -8,5 +8,4 @@ public class AopService {
 	public void test() {
 		System.out.println("서비스 test 실행");
 	}
-
 }
