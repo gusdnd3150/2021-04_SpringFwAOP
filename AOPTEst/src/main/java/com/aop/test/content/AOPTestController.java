@@ -14,5 +14,6 @@ public class AOPTestController{
 	public void test() {
 		System.out.println("컨트롤러 도착");
 		service.test();
+		System.out.println(service.before());
 	}
 }
